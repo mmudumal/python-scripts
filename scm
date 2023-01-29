@@ -1,5 +1,5 @@
 pipeline {
-  agent { node { label 'ubuntu' }
+  agent { node { label 'ubuntu' }}
   stages {
     stage('version') {
       steps {
