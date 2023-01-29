@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 
-print("Hello  world!")
+import socket
+print(socket.gethostname())
